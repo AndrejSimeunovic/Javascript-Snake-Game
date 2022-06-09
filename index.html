@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
             margin: 0;
             background-color: black;
         }
+
         #game-board {
             background-color: #ccc;
             width: 100vmin;
@@ -24,18 +26,22 @@
             grid-template-columns: repeat(21, 1fr);
 
         }
+
         .snake {
             background-color: hsl(200, 100%, 50%);
             border: .25vmin solid black;
         }
+
         .food {
-            background-color: hsl(200, 100%, 50%);
+            background-color: hsl(50, 100%, 50%);
             border: .25vmin solid black;
         }
     </style>
     <script src="game.js" defer type="module"></script>
 </head>
+
 <body>
-   <div id="game-board"></div> 
+    <div id="game-board"></div>
 </body>
+
 </html>
